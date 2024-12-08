@@ -26,5 +26,5 @@ app.post('/proxy', async (req, res) => {
   }
 });
 
-const PORT = 80;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`Proxy listening on port ${PORT}`));
